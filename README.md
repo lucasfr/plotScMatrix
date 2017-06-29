@@ -3,6 +3,5 @@
 
 This is a modified version of the chart.Correlation() function available at "PerformanceAnalytics" library.
 
-plotScMatrix <-
-  function (x, method=c("pearson", "kendall", "spearman"),
+  plotScMatrix (x, method=c("pearson", "kendall", "spearman"),
             colourHist, colourSigns, colourCor, colourSc, ...)
